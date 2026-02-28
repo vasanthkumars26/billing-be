@@ -24,6 +24,8 @@ router.get("/:id", async (req, res) => {
   }
 });
 
+
+
 // ✅ CREATE invoice
 router.post("/", async (req, res) => {
   try {
